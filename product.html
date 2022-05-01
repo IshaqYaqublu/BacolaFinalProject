@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bacola Shop Wide</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Indie+Flower&family=Jost&family=Montserrat:wght@200&family=Quicksand:wght@300&family=Red+Hat+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Indie+Flower&family=Jost&family=Montserrat:wght@200&family=Quicksand:wght@300&family=Red+Hat+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/asset/css/product.css" />
+  </head>
+  <body>
+    <section class="section-top computer-s">
+      <div class="py-2 container text-center">
+        Due to the <strong>COVID 19</strong> epidemic, orders may be processed
+        with a slight delay
+      </div>
+    </section>
+    <section class="section-top mobile-s">
+      <div class="py-2 container text-center">
+        Due to the <strong>COVID 19</strong> epidemic, orders may be processed
+        with a slight delay
+      </div>
+    </section>
+
+    <header class="container-fluid align-items-center computer-header-top px-5">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <ul class="d-flex">
+            <li><a href="">About Us</a></li>
+            <li><a href="">My account</a></li>
+            <li><a href="">Wishlist</a></li>
+            <li><a href="">Order Tracking</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 d-flex text-black justify-content-between">
+          <p class="mt-2 ms-4 ps-5">
+            <i class="fa-regular fa-hand"></i>100% Secure delivery without
+            contacting the courier
+          </p>
+          <p class="mt-2 pe-5 me-5">
+            Need help? Call Us: <a href=""><strong>+826 1086</strong> </a>
+          </p>
+          <div class="header-top-right me-5">
+            <div class="dropdown me-5">
+              <button class="dropbtn">
+                English <i class="fa-solid fa-angle-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">English</a>
+                <a href="#">Spanish</a>
+                <a href="#">German</a>
+              </div>
+            </div>
+            <div class="dropdown me-5">
+              <button class="dropbtn me-4">
+                USD <i class="fa-solid fa-angle-down"></i>
+              </button>
+              <div class="dropdown-content me-4">
+                <a href="#">USD</a>
+                <a href="#">INR</a>
+                <a href="#">GBP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="container-fluid align-items-center mobile-header-top">
+      <div class="row d-flex align-items-center">
+        <div class="col-3 top-m">
+          <i class="fa-solid fa-bars" id="fa"></i>
+          <div class="container">
+            <div id="sideb">
+              <div class="side-img d-flex align-items-center">
+                <img src="/asset/Photos/center-bacola.png" alt="" />
+                <p>X</p>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <a href=""
+            ><img src="/asset/Photos/bacola-logo-mobile.png" alt=""
+          /></a>
+        </div>
+        <div class="col-3 top-m text-end ms-4">
+          <a href=""
+            ><span>$0.00 </span> <i class="fa-solid fa-bag-shopping"></i>
+          </a>
+          <p class="supp">0</p>
+        </div>
+      </div>
+    </header>
+
+    <header class="container-fluid computer-header-center px-5">
+      <div class="row align-items-center">
+        <div class="center-left col-2">
+          <a href="" class="d-flex flex-column">
+            <img src="/asset/Photos/center-bacola.png" alt="" />
+            <span>Online Grocery Shopping Center</span>
+          </a>
+        </div>
+        <div id="myBtn" class="col-2 location-modal">
+          <div class="center-center">
+            <a href="#">
+              <span> Your Location</span>
+              <p>Select a Location</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </a>
+          </div>
+          <div id="myModal" class="modal">
+            <div class="modal-content px-3">
+              <div class="modal-header">
+                <h4>Choose your Delivery Location</h4>
+                <span class="close text-dark">&times;</span>
+              </div>
+              <div class="modal-body">
+                <p style="font-size: 14px">
+                  Enter your address and we will specify the offer for your
+                  area.
+                </p>
+              </div>
+              <div class="middle-center">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input type="text" placeholder="Search for products" />
+              </div>
+              <div class="modal-body-1 pt-3">
+                <p>Select a Location<span>Clear All</span></p>
+                <p>Alabama<span>Clear All</span></p>
+                <p>Alaska<span>Clear All</span></p>
+                <p>Arizona<span>Clear All</span></p>
+                <p>California<span>Clear All</span></p>
+                <p>Colorodo<span>Clear All</span></p>
+                <p>Florida<span>Clear All</span></p>
+                <p>Georgia <span>Clear All</span></p>
+                <p>Kansas<span>Clear All</span></p>
+                <p>Minnesota<span>Clear All</span></p>
+                <p>New Yorke<span>Clear All</span></p>
+                <p>Baku<span>Clear All</span></p>
+                <p>Gence<span>Clear All</span></p>
+                <p>Qarabag<span>Clear All</span></p>
+                <p>Bilesuvar<span>Clear All</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="middle-center">
+            <input type="text" placeholder="Search for products" />
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+        </div>
+        <div class="col-3 center-end text-center">
+          <a href="/login.html"
+            ><i class="fa-regular fa-user end-1 me-2"></i>
+            <span style="margin-right: 10px; font-size: 15px; font-weight: bold"
+              >$0.00
+            </span></a
+          >
+          <a href=""> <i class="fa-solid fa-basket-shopping end-2"></i></a>
+          <p>0</p>
+        </div>
+      </div>
+    </header>
+
+    <header
+      class="container-fluid align-items-center computer-header-bottom pt-3 px-5"
+    >
+      <div class="row justify-content-between">
+        <div class="col-lg-4 px-5 header-bottom-left">
+          <a id="home-categories" href="" class="left-categories">
+            <i class="fa-solid fa-bars"></i>
+            <h6 class="mx-4">ALL CATEGORIES</h6>
+            <i class="fa-solid fa-angle-down"></i>
+            <p>TOTAL 63 PRODUCTS</p>
+          </a>
+          <div class="all-categories">
+            <ul class="ms-3">
+              <li class="categories-fruits">
+                <a href=""
+                  ><i class="fa-brands fa-apple"></i
+                  ><span>Fruits & Vegetables</span
+                  ><i class="fa-solid fa-chevron-right ms-4"></i
+                ></a>
+                <div class="fruits">
+                  <ul>
+                    <li>Cuts & Sprouts</li>
+                    <li>Exotic Fruits & Veggies</li>
+                    <li>Fresh Fruits</li>
+                    <li>Fresh Vegetables</li>
+                    <li>Herbs & Seasonings</li>
+                    <li>Packaged Produce</li>
+                    <li>Party Trays</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-apple"></i>Meats & Seafood</a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-brands fa-apple"></i>Breakfast & Dairy</a
+                >
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-apple"></i>Breads & Bakery</a>
+              </li>
+              <li class="fruits-second">
+                <a href=""
+                  ><i class="fa-brands fa-apple"></i>Frozen Foods
+                  <i class="fa-solid fa-chevron-right ms-6"></i
+                ></a>
+                <div class="second">
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Craft Beer</li>
+                    <li>Drink Boxes & Pouches</li>
+                    <li>Milk & Plant-Based Milk</li>
+                    <li>Wine</li>
+                    <li>Soda & Pop</li>
+                    <li>Wine</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-brands fa-apple"></i>Biscuits & Snacks</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-brands fa-apple"></i>Grocery & Staples</a
+                >
+              </li>
+              <li><a href="">Value of the day</a></li>
+              <li><a href="">Top 100 Offers</a></li>
+              <li><a href="">New Arrivals</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-8 header-bottom-right pt-2">
+          <ul class="d-flex">
+            <li>
+              <a href="">HOME <i class="fa-solid fa-angle-down"></i> </a>
+              <div class="home-li">
+                <ul>
+                  <li>HOME 1</li>
+                  <li>HOME 2</li>
+                  <li>HOME 3</li>
+                  <li>HOME 4</li>
+                  <li>HOME 5</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="shop-li">
+              <a href="">SHOP <i class="fa-solid fa-angle-down"></i></a>
+              <div class="col-lg-2 d-flex shop">
+                <ul>
+                  <li>Shop Default</li>
+                  <a href="/shop.html"><li>Shop Wide</li></a>
+                  <li>List Left Sidebar</li>
+                  <li>Load More Button</li>
+                  <li>Infinite Scrolling</li>
+                </ul>
+                <ul>
+                  <li>Shop Default</li>
+                  <li>Shop Wide</li>
+                  <li>List Left Sidebar</li>
+                  <li>Load More Button</li>
+                  <li>Infinite Scrolling</li>
+                </ul>
+                <ul>
+                  <li>Shop Default</li>
+                  <li>Shop Wide</li>
+                  <li>List Left Sidebar</li>
+                  <li>Load More Button</li>
+                  <li>Infinite Scrolling</li>
+                </ul>
+                <ul>
+                  <li>Shop Default</li>
+                  <li>Shop Wide</li>
+                  <li>List Left Sidebar</li>
+                  <li>Load More Button</li>
+                  <li>Infinite Scrolling</li>
+                </ul>
+                <ul>
+                  <li>Shop Default</li>
+                  <li>Shop Wide</li>
+                  <li>List Left Sidebar</li>
+                  <li>Load More Button</li>
+                  <li>Infinite Scrolling</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa-solid fa-drumstick-bite"></i> MEATS & SEAFOOD</a
+              >
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-stroopwafel"></i> BAKERY</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-mug-saucer"></i> BEVERAGE</a>
+            </li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="container">
+      <p style="font-size: 12px">
+        HOME > <span style="color: #ccc">MEATS & SEAFOOD </span>
+        <span>ALL NATURAL ITALIAN STYLE CHICKEN MEATBALLS</span>
+      </p>
+    </section>
+
+    <section class="italian-all">
+      <div class="container">
+        <div class="row italian-n">
+          <h1>All Natural Italian-Style Chicken Meatballs</h1>
+          <div class="italian-chicken d-flex bg-red">
+            <div class="ms-3">
+              <p>Brands: Welch's</p>
+            </div>
+            <div class="ms-3">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span>1 REVIEW</span>
+            </div>
+            <div class="ms-3">
+              <span>ZU49VO </span>
+            </div>
+          </div>
+        </div>
+        <div class="row new-it">
+          <div class="col-lg-6">
+            <div class="bigs-img">
+              <div class="discounts">
+                <span class="discount">23%</span>
+                <span class="rec">RECOMMENDED</span>
+              </div>
+              <img
+                src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-768x691.jpg"
+                alt=""
+              />
+            </div>
+            <div class="smalls-img d-flex">
+              <div class="small-img">
+                <img
+                  src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image2-47-150x150.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="small-img">
+                <img
+                  src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image3-35-150x150.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="small-img">
+                <img
+                  src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-150x150.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 all-price">
+            <div class="prices">
+              <p>$9.35</p>
+              <h3>%7.25</h3>
+            </div>
+            <p class="stock">IN STOCK</p>
+            <p>
+              Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus
+              malesuada tincidunt. Class aptent taciti sociosqu ad litora
+              torquent
+            </p>
+            <div class="counter">
+              <div class="count">
+                <i class="fa-solid fa-minus" id="minus"></i>
+                <p class="result" id="rest">1</p>
+                <i class="fa-solid fa-plus" id="plus"></i>
+              </div>
+              <div class="add-cart">
+                <p>ADD TO CART</p>
+              </div>
+            </div>
+            <div class="wishtlists pt-4">
+              <p class="frst-p">
+                <i class="fa-regular fa-heart"></i>ADD TO WISHLIST
+              </p>
+              <p class="scnd-p">
+                <i class="scnd-p fa-solid fa-arrow-down-1-9"></i>COMPARE
+              </p>
+            </div>
+            <div class="type-true pt-4">
+              <p><i class="fa-solid fa-check"></i>Type: Organic</p>
+              <p><i class="fa-solid fa-check"></i>MFG: Jun 4.2021</p>
+              <p><i class="fa-solid fa-check"></i>LIFE: 30 days</p>
+            </div>
+            <div class="tags-tips pt-5">
+              <p>Category: <span>Meats & Seafood</span></p>
+              <p>Tags: <span>chicken, natural, organic</span></p>
+            </div>
+            <div class="product-icon pt-4">
+              <i class="fa-brands fa-facebook-f fb"></i>
+              <i class="fa-brands fa-twitter tw"></i>
+              <i class="fa-brands fa-pinterest-p pt"></i>
+              <i class="fa-brands fa-linkedin-in lk"></i>
+              <i class="fa-brands fa-reddit rd"></i>
+              <i class="fa-brands fa-whatsapp wt"></i>
+            </div>
+          </div>
+          <div class="col-lg-3 covid-all">
+            <div class="covid-19">
+              <p>Covid-19 Info: We keep delivering.</p>
+            </div>
+            <div class="covid-free mt-2">
+              <p>
+                <i class="fa-solid fa-truck"></i> Free Shipping apply to all
+                orders over $100
+              </p>
+              <p>
+                <i class="fa-solid fa-blender-phone"></i>Guranteed 100% Organic
+                from natural farmas
+              </p>
+              <p>
+                <i class="fa-solid fa-dollar-sign"></i>1 Day Returns if you
+                change your mind
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container tabmenus">
+      <div class="container tab">
+        <button class="tablinks" onclick="openCity(event, ' Description ')">
+          Description
+        </button>
+        <button
+          class="tablinks"
+          onclick="openCity(event, '  Additional information ')"
+        >
+          Additional information
+        </button>
+        <button class="tablinks" onclick="openCity(event, ' Reviews (1)  ')">
+          Reviews (1)
+        </button>
+      </div>
+
+      <div id=" Description " class="tabcontent">
+        <p>
+          Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin
+          vitae magna in dui finibus malesuada et at nulla. Morbi elit ex,
+          viverra vitae ante vel, blandit feugiat ligula. Fusce fermentum
+          iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc,
+          in pellentesque lorem mattis quis. Cras imperdiet est in nunc
+          tristique lacinia. Nullam aliquam mauris eu accumsan tincidunt.
+          Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.
+          Morbi ut sapien vitae odio accumsan gravida.
+        </p>
+        <p>
+          Morbi vitae erat auctor, eleifend nunc a, lobortis neque. Praesent
+          aliquam dignissim viverra. Maecenas lacus odio, feugiat eu nunc sit
+          amet, maximus sagittis dolor. Vivamus nisi sapien, elementum sit amet
+          eros sit amet, ultricies cursus ipsum. Sed consequat luctus ligula.
+          Curabitur laoreet rhoncus blandit. Aenean vel diam ut arcu pharetra
+          dignissim ut sed leo. Vivamus faucibus, ipsum in vestibulum vulputate,
+          lorem orci convallis quam, sit amet consequat nulla felis pharetra
+          lacus. Duis semper erat mauris, sed egestas purus commodo vel.
+        </p>
+      </div>
+
+      <div id="  Additional information " class="tabcontent">
+        <div class="d-flex">
+          <p
+            style="border: 1px solid rgba(0, 0, 0, 0.221); padding: 5px 5px"
+            class="col-lg-6"
+          >
+            Brands
+          </p>
+          <p
+            style="border: 1px solid rgba(0, 0, 0, 0.207); padding: 5px 5px"
+            class="col-lg-6"
+          >
+            Welch's
+          </p>
+        </div>
+      </div>
+
+      <div id=" Reviews (1)  " class="tabcontent mt-4">
+        <h6>1 REVIEW FOR ALL NATURAL ITALIAN-STYLE CHICKEN MEATBALLS</h6>
+        <div class="d-flex revi-admin align-items-center mt-2">
+          <div>
+            <img
+              style="border-radius: 100%"
+              src="/asset/Photos/Admin.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="ms-4">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-regular fa-star"></i>
+            <p>
+              Admin –
+              <span style="color: rgba(0, 0, 0, 0.404)"> May 1, 2021</span>
+            </p>
+            <p>
+              Sed perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium.
+            </p>
+          </div>
+        </div>
+        <div class="revi-add my-4">
+          <h5>Add a review</h5>
+        </div>
+        <div class="email-publish">
+          <p>
+            Your email address will not be published. Required fields are marked
+            *
+          </p>
+          <p>Your rating *</p>
+          <p style="color: darkgoldenrod; font-size: 13px">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i>
+          </p>
+          <form action="">
+            <div class="d-flex flex-column">
+              <label for="">Your review *</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="d-flex flex-column pt-4">
+              <label for="">Name *</label>
+              <input type="text" />
+            </div>
+            <div class="d-flex flex-column pt-4">
+              <label for="">Email *</label>
+              <input type="text" />
+            </div>
+            <div class="pt-2">
+              <input type="checkbox" />
+              <span
+                >Save my name, email, and website in this browser for the next
+                time I comment.</span
+              >
+            </div>
+            <div class="publish-submit py-4">
+              <input type="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="related">
+      <div class="container px-4">
+        <div class="row">
+          <h5 class="pb-3">RELATED PRODUCTS</h5>
+          <div class="col-lg-3 related-pro py-4">
+            <div class="related-img">
+              <img src="/asset/Photos/related-1.jpg" alt="" />
+              <p>16%</p>
+              <h5 ><i class="fa-solid fa-expand rel-frst"></i></h5>
+              <h5><i class="fa-solid fa-heart rel-scnd"></i></h5>
+            </div>
+            <div>
+              <p style="font-weight: bold">
+                Encore Seafoods Stuffed Alaskan Salmon
+              </p>
+              <p style="font-size: 13px; padding: 7px 0; color: #00b853">
+                INSTOCK
+              </p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star">1</i>
+              <p style="color: #d51243; font-weight: bold; font-size: 18px">
+                <del>$32.49</del> $27.49
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 related-pro py-4">
+            <div class="related-img">
+              <img src="/asset/Photos/related-2.jpg" alt="" />
+              <p>16%</p>
+              <h5 ><i class="fa-solid fa-expand rel-frst"></i></h5>
+              <h5><i class="fa-solid fa-heart rel-scnd"></i></h5>
+            </div>
+            <div>
+              <p style="font-weight: bold">
+                Encore Seafoods Stuffed Alaskan Salmon
+              </p>
+              <p style="font-size: 13px; padding: 7px 0; color: #00b853">
+                INSTOCK
+              </p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star">1</i>
+              <p style="color: #d51243; font-weight: bold; font-size: 18px">
+                <del>$32.49</del> $27.49
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 related-pro py-4">
+            <div class="related-img">
+              <img src="/asset/Photos/related-3.jpg" alt="" />
+              <p>16%</p>
+              <h5 ><i class="fa-solid fa-expand rel-frst"></i></h5>
+              <h5><i class="fa-solid fa-heart rel-scnd"></i></h5>
+            </div>
+            <div>
+              <p style="font-weight: bold">
+                Encore Seafoods Stuffed Alaskan Salmon
+              </p>
+              <p style="font-size: 13px; padding: 7px 0; color: #00b853">
+                INSTOCK
+              </p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star">1</i>
+              <p style="color: #d51243; font-weight: bold; font-size: 18px">
+                <del>$32.49</del> $27.49
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 related-pro py-4">
+            <div class="related-img">
+              <img src="/asset/Photos/related-4.jpg" alt="" />
+              <p>16%</p>
+              <h5 ><i class="fa-solid fa-expand rel-frst"></i></h5>
+              <h5><i class="fa-solid fa-heart rel-scnd"></i></h5>
+            </div>
+            <div>
+              <p style="font-weight: bold">
+                Encore Seafoods Stuffed Alaskan Salmon
+              </p>
+              <p style="font-size: 13px; padding: 7px 0; color: #00b853">
+                INSTOCK
+              </p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star">1</i>
+              <p style="color: #d51243; font-weight: bold; font-size: 18px">
+                <del>$32.49</del> $27.49
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-top mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-12 subscribe-all">
+            <h5>$20 discount for your first order</h5>
+            <h1>Join our newsletter and get...</h1>
+            <p>
+              Join our email subscription now to get updates on promotions and
+              coupons.
+            </p>
+            <div class="subscribe">
+              <i class="fa-regular fa-envelope"></i>
+              <input
+                class="subscribe-email"
+                type="email"
+                placeholder="Your email address"
+              />
+              <input class="subscribe-submit" type="submit" value="Subscribe" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-12 subscribe-img">
+            <img src="/asset/Photos/Header-top.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-everyday">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-3 everday">
+            <i class="fa-solid fa-cow"></i>
+            <span>Everyday fresh products</span>
+          </div>
+          <div class="col-lg-3 col-3 everday">
+            <i class="fa-solid fa-truck"></i>
+            <span>Free delivery for order over $70</span>
+          </div>
+          <div class="col-lg-3 col-3 everday">
+            <i class="fa-solid fa-percent"></i>
+            <span>Daily Mega Discounts</span>
+          </div>
+          <div class="col-lg-3 col-3 everday">
+            <i class="fa-solid fa-sack-dollar"></i>
+            <span>Best price on the market</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-menu">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2">
+            <h5>FRUIT & VEGETABLES</h5>
+            <ul>
+              <li>Fresh Vegetables</li>
+              <li>Herbs & Seasonings</li>
+              <li>Fresh Fruits</li>
+              <li>Cuts & Sprouts</li>
+              <li>Exotic Fruits & Veggies</li>
+              <li>Packaged Produce</li>
+              <li>Party Trays</li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h5>BREAKFAST & DAIRY</h5>
+            <ul>
+              <li>Milk & Flavoured Milk</li>
+              <li>Butter and Margarine</li>
+              <li>Cheese</li>
+              <li>Eggs Substitutes</li>
+              <li>Honey</li>
+              <li>Marmalades</li>
+              <li>Sour Cream and Dips</li>
+              <li>Yogurt</li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h5>MEAT & SEAFOOD</h5>
+            <ul>
+              <li>Breakfast Sausage</li>
+              <li>Dinner Sausage</li>
+              <li>Beef</li>
+              <li>Chicken</li>
+              <li>Sliced Deli Meat</li>
+              <li>Shrimp</li>
+              <li>Wild Caught Fillets</li>
+              <li>Crab and Shellfish</li>
+              <li>Farm Raised Fillets</li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h5>BEVERAGES</h5>
+            <ul>
+              <li>Water</li>
+              <li>Sparkling Water</li>
+              <li>Soda & Pop</li>
+              <li>Coffee</li>
+              <li>Milk & Plant-Based Milk</li>
+              <li>Tea & Kombucha</li>
+              <li>Drink Boxes & Pouches</li>
+              <li>Craft Beer</li>
+              <li>Wine</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5>BREADS & BAKERY</h5>
+            <ul>
+              <li>Milk & Flavoured Milk</li>
+              <li>Butter and Margarine</li>
+              <li>Cheese</li>
+              <li>Eggs Substitutes</li>
+              <li>Honey</li>
+              <li>Marmalades</li>
+              <li>Sour Cream and Dips</li>
+              <li>Yogurt</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-app">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-4 d-flex align-items-center app-left ps-4">
+            <i class="fa-solid fa-phone"></i>
+            <div class="ps-4">
+              <h5>070-826-10-26</h5>
+              <p>Working 8:00 - 22:00</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-8 app-right align-items-center">
+            <div class="text-end">
+              <h5>Download App on Mobile :</h5>
+              <p>15% discount on your first purchase</p>
+            </div>
+            <img src="/asset/Photos/Google-play.png" alt="" />
+            <img src="/asset/Photos/app-store.png" alt="" />
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer py-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12 footer-top-left">
+            <p>
+              Copyright 2022 © Bacola WordPress Theme. All rights reserved.
+              Powered by KlbTheme.
+            </p>
+          </div>
+          <div class="col-lg-6 col-12 footer-top-right">
+            <ul class="d-flex align-items-center footer-top-right">
+              <li>Privacy Policy</li>
+              <li>Terms and Conditions</li>
+              <li>Cookie</li>
+              <li><img src="/asset/Photos/footer.jpg" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-mobile">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-2 text-center">
+            <a href=""><i class="fa-solid fa-store"></i></a>
+            <p><a href="">Store</a></p>
+          </div>
+          <div class="col-2 text-center">
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i>
+            
+            </a>
+            <p><a href="">Search</a></p>
+          </div>
+          <div class="col-2 text-center">
+            <a href=""><i class="fa-solid fa-heart-crack"></i></a>
+            <p><a href="">Wishlist</a></p>
+          </div>
+          <div class="col-2 text-center">
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <p><a href="">Account</a></p>
+          </div>
+          <div class="col-2 text-center">
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+            <p><a href="">Catagories</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./asset/js/product.js"></script>
+  </body>
+</html>

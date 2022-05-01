@@ -1,0 +1,142 @@
+@media(max-width:576px){
+    .mobile-s{
+        background-color: #233A95;
+        display: block !important;
+     div{
+        color: #fff;
+        font-size: .6rem;   
+        }
+    }
+    .computer-s{
+        display: none !important;
+    }
+
+    .computer-header-top{
+        display: none;
+    }
+    .mobile-header-top{
+        padding-bottom: 10px;
+        display: block !important;
+        img{
+            width: 70%;
+        }
+        .top-m{
+            position: relative;
+            .supp{
+                position: absolute;
+                top: 10px;
+                right: 4px; 
+                background-color: red;
+                padding: 0 6px;
+                border-radius: 100%;
+                color: #fff;
+                font-size: 10px;
+            }
+                font-size: 20px;
+                padding-top: 8px;
+                a{
+                    color: black;
+                }
+            }
+
+        #sideb{
+            background-color: #fff;
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.195);
+            width: 0px;
+            height:100vh;
+            position: absolute;
+            left: 0%;
+            top: 100%;
+            display: none !important;
+            z-index: 111111111111111111111111;
+            .side-img{
+                    width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+
+
+        
+        .all-categories{
+                font-size:12px ;
+                background-color:#fff;
+                display: none;
+                width: 40%;
+                position: absolute;
+                top: 76px;
+                left: 46px;
+                border-radius: 15px;
+                box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.08);
+               z-index: 1111111111111111111111111111111;
+               .categories-fruits{
+                   &:hover .fruits{
+                       display: block;
+                   }
+               }
+               .fruits{
+                   position: absolute;
+                   top: 0;
+                   left: 193px;
+                   background-color: #fff;
+                   width: 80%;
+                   padding-left: 25px;
+                   border:none;
+                   border-radius: 15px;
+                   display: none;
+                   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.164);
+               }
+               .fruits-second{
+                &:hover .second{
+                    display: block;
+                }
+            }
+            
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+        
+
+        
+        }
+
+
+    
+    }
+    .computer-header-center{
+        display: none;
+    }
+    .computer-header-bottom{
+        display: none;
+    }
+
+
+
+    
+
+    .footer-top{
+        width: 100%;
+        .subscribe-email{
+            width: 85%;
+        }
+        .subscribe-img{
+         display: none;
+        }
+    }  
+    .footer-app{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+}

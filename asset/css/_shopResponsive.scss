@@ -1,0 +1,260 @@
+@media(max-width:576px){
+    .mobile-s{
+        background-color: #233A95;
+        display: block !important;
+     div{
+        color: #fff;
+        font-size: .6rem;   
+        }
+    }
+    .computer-s{
+        display: none !important;
+    }
+
+    .computer-header-top{
+        display: none;
+    }
+    .mobile-header-top{
+        padding-bottom: 10px;
+        display: block !important;
+        img{
+            width: 70%;
+        }
+        .top-m{
+            position: relative;
+            .supp{
+                position: absolute;
+                top: 10px;
+                right: 4px; 
+                background-color: red;
+                padding: 0 6px;
+                border-radius: 100%;
+                color: #fff;
+                font-size: 10px;
+            }
+                font-size: 20px;
+                padding-top: 8px;
+                a{
+                    color: black;
+                }
+            }
+
+        #sideb{
+            background-color: #fff;
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.195);
+            width: 0px;
+            height:100vh;
+            position: absolute;
+            left: 0%;
+            top: 100%;
+            display: none !important;
+            z-index: 111111111111111111111111;
+            .side-img{
+                    width: 40%;
+                img{
+                    width: 100%;
+                }
+            }
+
+
+        
+        .all-categories{
+                font-size:12px ;
+                background-color:#fff;
+                display: none;
+                width: 40%;
+                position: absolute;
+                top: 76px;
+                left: 46px;
+                border-radius: 15px;
+                box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.08);
+               z-index: 1111111111111111111111111111111;
+               .categories-fruits{
+                   &:hover .fruits{
+                       display: block;
+                   }
+               }
+               .fruits{
+                   position: absolute;
+                   top: 0;
+                   left: 193px;
+                   background-color: #fff;
+                   width: 80%;
+                   padding-left: 25px;
+                   border:none;
+                   border-radius: 15px;
+                   display: none;
+                   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.164);
+               }
+               .fruits-second{
+                &:hover .second{
+                    display: block;
+                }
+            }
+            
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+        
+
+        
+        }
+
+
+    
+    }
+    .computer-header-center{
+        display: none;
+    }
+    .computer-header-bottom{
+        display: none;
+    }
+
+
+    .redirection{
+        display: none;
+    }
+    .shop{
+        display: none;
+    }
+    .shop-img{
+        display: block !important;
+        width: 97%;
+        p{
+            font-size: 13px;
+            color: rgb(168, 166, 166);
+        }
+        img{
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+    .shop-mobile{
+        display: block !important;
+        .right-center{
+       
+            .right-week-1{
+                width: 48%;
+                padding: 10px 10px 30px 10px;
+                h4{
+                    font-size: 16px;
+                }
+                border: 1px solid #ccc;
+                 position: relative;
+                   
+                .week-day{
+                    position: relative;
+                    width: 100%;
+                    &:hover .week-submit{
+                        display: block;
+                     }
+                   
+                
+    
+                    img{
+                        width: 100%;
+                    }
+                    .pos-week{
+                        position: absolute;
+                        top: -5px;
+                        left: -7px;
+                        color: #fff;
+                    }
+    
+                }
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                    border: 1px solid black;
+                    z-index: 55555555555555555555555555;
+                }
+                &:hover .week-submit{
+                    position:absolute;
+                    
+                    display: block;
+                    transition: 2s;
+                }
+                overflow: hidden !important;
+                &:hover{
+                    transform: scale(1.01);
+    
+                }
+                .week-submit{
+                    transition: 2s;
+                    bottom: 0.4rem;
+                    left: 3.8rem;
+                    background-color: #233A95;
+                    outline: none;
+                    border: none;
+                    padding: 2px 50px;
+                    border-radius: 20px;
+                    z-index: 11111111111;
+                    display: none;
+                }
+                
+                
+            }
+       }
+    }
+    .shop-filter{
+     display: block !important;
+     .filtersazia{
+         background-color: rgba(225, 222, 222, 0.332);
+     }
+     .row{
+         padding: 15px 0;
+         i{
+             padding-left: 15px;
+         }
+         h6{
+             margin-left: 10px;
+         }
+         p{
+             i{
+                 margin: 0 10px;
+             }
+         }
+     }
+    }
+
+    
+    .footer-top{
+        width: 100%;
+        .subscribe-email{
+            width: 85%;
+        }
+        .subscribe-img{
+         display: none;
+        }
+    }  
+    .footer-app{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
